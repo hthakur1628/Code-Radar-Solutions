@@ -8,9 +8,9 @@ int main() {
     scanf("%d", &num);
     
     if (num % 2 == 0) {
-        printf("%d \n", num);
+        printf("Even");
     } else {
-        printf("%d \n", num);
+        printf("Odd");
     }
     
     return 0;
