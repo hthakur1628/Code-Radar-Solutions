@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main() {
-    int a ; 
-    if (a % 2  == 0 ){
-    printf("Even");}
+    int num ; 
+    if (num % 2  == 0 )
+    {
+    printf("Even");
+    }
     else {
         printf("Odd")
     }
