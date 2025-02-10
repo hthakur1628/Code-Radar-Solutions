@@ -5,7 +5,7 @@ int main() {
     int num;
     
     printf(" ");
-   
+    scanf(" ");
     
     if (num % 2 == 0) {
         printf("Even");
