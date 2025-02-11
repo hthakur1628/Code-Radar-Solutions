@@ -5,7 +5,7 @@ int main() {
     int number ;
     
     printf("");
-    
+    scanf("");
     
     
     if (number % 2 == 0) {
