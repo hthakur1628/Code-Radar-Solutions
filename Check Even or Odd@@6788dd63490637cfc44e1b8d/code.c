@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main() {
-    int number ;
+    int number;
+    
     
     printf(" ");
-    scanf(" ");
-   
+    
     
     
     if (number % 2 == 0) {
