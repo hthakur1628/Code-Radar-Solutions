@@ -3,9 +3,7 @@
 
 int main() {
     int number;
-    
-    
-    printf(" ");
+    printf("");
     
     
     
