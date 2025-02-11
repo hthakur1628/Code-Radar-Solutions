@@ -4,8 +4,9 @@
 int main() {
     int number ;
     
-    printf("");
-    scanf("");
+    printf("Enter a number: ");
+    scanf("%d", &number);
+   
     
     
     if (number % 2 == 0) {
