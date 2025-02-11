@@ -2,14 +2,15 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int number ;
     
     printf(" ");
-    scanf(" ");
     
-    if (num % 2 == 0) {
+    
+    if (number % 2 == 0) {
         printf("Even");
-    } else {
+    } 
+    else {
         printf("Odd");
     }
     
