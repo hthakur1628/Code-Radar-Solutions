@@ -10,7 +10,8 @@ int main() {
     
     if (number % 2 == 0) {
         printf("Even \n");
-    } else{
+    } 
+    else{
         printf("Odd ");
     }
     
