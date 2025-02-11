@@ -4,7 +4,7 @@
 int main() {
     int number ;
     
-    printf();
+    printf("");
     
     
     if (number % 2 == 0) {
