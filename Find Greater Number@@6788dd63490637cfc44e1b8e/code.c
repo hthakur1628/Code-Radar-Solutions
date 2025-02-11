@@ -1,19 +1,21 @@
 #include <stdio.h>
+
 int main() {
-    int a;
-    printf("");
-    scanf("%d",&a);
+    int num1, num2;
 
-    int b;
     printf("");
-    scanf("%d",&b);
+    scanf("%d", &num1);
 
-    if(a>b){
-        printf("%d>%d",a,b);
+    printf("");
+    scanf("%d", &num2);
+
+    if (num1 > num2) {
+        printf("%d is greater than %d\n", num1, num2);
+    } else if (num2 > num1) {
+        printf("%d is greater than %d\n", num2, num1);
+    } else {
+        printf("Both integers are equal\n");
     }
-    else(a<b){
-        printf("%d<%d",a,b);
-    }
-    
+
     return 0;
 }
