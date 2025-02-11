@@ -7,14 +7,14 @@ int main() {
     scanf("%d",&number);
 
     if(number > 0){
-        printf("Positive")
+        printf("Positive");
     }
     else if (number < 0)
     {
-        printf("Negative")
+        printf("Negative");
     }
     else {
-        printf("Zero")
+        printf("Zero");
     }
 
     return 0;
