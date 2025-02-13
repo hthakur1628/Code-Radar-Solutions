@@ -3,12 +3,7 @@
 int main(){
     int a,b;
     scanf("%d",&a,&b);
-
-    if(a>b){
-        printf("True");
-    }
-    else if(a<b){
-        printf("False");
-    }
+    printf("True %d",a>b);
+    printf("False %d",a<b);
     return 0;
 }
