@@ -9,7 +9,7 @@ int main()
         printf("Uppcase",ch);
     }
     else if (ch>= 'a' && ch<= 'z' ){
-        print("Lowercase",ch);
+        printf("Lowercase",ch);
     }
     else{
         printf("")
