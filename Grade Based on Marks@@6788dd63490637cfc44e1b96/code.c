@@ -5,15 +5,15 @@ int main(){
     printf("");
     scanf("%d",&num);
     if (num>=90){
-        printf("A");
+        printf("A\n");
     }
-    else if(80<num>=90){
-        printf("B");
+    else if(90<num>=80){
+        printf("B\n");
     }
-    else if(70<num>=80){
-        printf("C");
+    else if(80<num>=70){
+        printf("C\n");
     }
-    else if(60<num>=70){
+    else if(70<num>=60){
         printf("D");
     }
     else if(num<60){
