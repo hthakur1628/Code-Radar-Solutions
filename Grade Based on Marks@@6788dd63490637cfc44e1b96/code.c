@@ -11,13 +11,13 @@ int main(){
         printf("B");
     }
     else if(80<num>=70){
-        printf("C")
+        printf("C");
     }
     else if(70<num>=60){
-        printf("D")
+        printf("D");
     }
     else{
-        printf("F")
+        printf("F");
     }
     return 0;
     
