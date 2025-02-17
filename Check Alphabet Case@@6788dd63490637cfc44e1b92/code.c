@@ -12,7 +12,7 @@ int main()
         printf("Lowercase",ch);
     }
     else{
-        printf("")
+        printf("");
     }
     return 0;
 
