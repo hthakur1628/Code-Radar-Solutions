@@ -4,9 +4,9 @@ int main() {
     float cost_price, selling_price, profit_or_loss;
 
     // Input cost price and selling price from the user
-    printf("Enter the cost price: ");
+    printf("");
     scanf("%f", &cost_price);
-    printf("Enter the selling price: ");
+    printf("");
     scanf("%f", &selling_price);
 
     // Calculate profit or loss
@@ -18,7 +18,7 @@ int main() {
     } else if (profit_or_loss < 0) {
         printf("Loss: %.2f\n", -profit_or_loss); // Use -profit_or_loss to show positive value for loss
     } else {
-        printf("No Profit, No Loss\n");
+        printf("No Profit No Loss\n");
     }
 
     return 0;
