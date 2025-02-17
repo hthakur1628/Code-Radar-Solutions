@@ -1,5 +1,5 @@
 // Your code here...
-#include<stido.h>
+#include<stdio.h>
 int main (){
     char ch;
     printf("");
