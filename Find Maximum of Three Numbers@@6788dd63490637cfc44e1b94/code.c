@@ -13,7 +13,7 @@ int main(){
         printf("%d",n3);
     }
     else{
-        printf("0");
+        printf("");
     }
     return 0;
     
