@@ -14,9 +14,9 @@ int main() {
 
     // Determine and display whether it's a profit or loss
     if (profit_or_loss > 0) {
-        printf("Profit: %.2f\n", profit_or_loss);
+        printf("Profit", profit_or_loss);
     } else if (profit_or_loss < 0) {
-        printf("Loss: %.2f\n", -profit_or_loss); // Use -profit_or_loss to show positive value for loss
+        printf("Loss", -profit_or_loss); // Use -profit_or_loss to show positive value for loss
     } else {
         printf("No Profit No Loss\n");
     }
