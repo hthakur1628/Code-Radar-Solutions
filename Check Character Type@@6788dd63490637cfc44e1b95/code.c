@@ -8,7 +8,7 @@ int main (){
         printf("Vowels");
     }
     else (ch != a,e,i,o,u){
-        printf("Consonant")
+        printf("Consonant");
     }
     return 0;
 }
