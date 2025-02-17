@@ -10,7 +10,7 @@ int main(){
     else if(num>=80){
         printf("B\n");
     }
-    else if(80<num>=70){
+    else if(num>=70){
         printf("C\n");
     }
     else if(num>=60){
