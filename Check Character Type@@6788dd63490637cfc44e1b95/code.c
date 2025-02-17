@@ -7,8 +7,11 @@ int main (){
     if (ch == a,e,i,o,u){
         printf("Vowels");
     }
-    else (ch != a,e,i,o,u){
+    else if(ch != a,e,i,o,u){
         printf("Consonant");
+    }
+    else{
+        printf("Digit");
     }
     return 0;
 }
