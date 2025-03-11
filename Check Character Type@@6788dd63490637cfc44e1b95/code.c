@@ -10,7 +10,10 @@ int main (){
     else if(ch != 'a' || ch != 'i'|| ch != 'o'|| ch != 'u'|| ch != 'e'){
         printf("Consonant");
     }
-    else{
+    else if (ch == '@'){
+        printf("Special Character");
+    }
+    else {
         printf("Digit");
     }
     return 0;
