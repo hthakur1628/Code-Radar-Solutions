@@ -18,7 +18,7 @@ void rotate(int arr[], int n, int k) {
     reverse(arr, k, n - 1);
 }
 
-int main() {
+int main(){
     int n, k;
     scanf("%d", &n);
     int arr[n];
@@ -33,6 +33,5 @@ int main() {
         printf("%d \n", arr[i]);
     }
 
-    
-    return 0;
+    return 0;
 }
