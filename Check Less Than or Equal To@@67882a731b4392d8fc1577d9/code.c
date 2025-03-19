@@ -6,11 +6,9 @@ int main(){
     if (a<=b){
         printf("True");
     }
-    else if (a>=b){
-        printf("False");
-    }
+    
     else {
-        printf("None");
+        printf("False");
     }
     return 0;
 }
