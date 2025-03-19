@@ -7,8 +7,11 @@ int main(){
     if (a || b > 0){
         printf("True");
     }
-    else {
+    else if (a || b < 0 ) {
         printf("False");
+    }
+    else {
+        printf("None");
     }
     return 0;
 }
