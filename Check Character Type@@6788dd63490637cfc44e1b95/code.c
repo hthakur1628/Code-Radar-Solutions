@@ -3,7 +3,7 @@
 int main() {
     char ch;
     
-    printf("Enter a character: "); // Inform the user to input a character
+    printf(""); // Inform the user to input a character
     scanf("%c", &ch); // Use the address-of operator '&'
 
     if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
