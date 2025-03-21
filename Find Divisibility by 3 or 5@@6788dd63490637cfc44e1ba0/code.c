@@ -16,7 +16,7 @@ int main(){
         printf("Divisible by both");
     }
     else{
-        printf("None")
+        printf("None");
     }
     return 0;
 }
