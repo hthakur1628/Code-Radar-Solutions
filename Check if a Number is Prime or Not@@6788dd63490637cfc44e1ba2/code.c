@@ -7,7 +7,7 @@ int main(){
     int a  ;
     printf("");
     scanf("%d ",&a);
-    if ( a>1 && a/1 && a%a==0){
+    if ( a<1 && a/1 && a%a==0){
         printf("Prime");
     }
     else {
