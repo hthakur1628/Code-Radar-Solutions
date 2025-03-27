@@ -10,6 +10,11 @@ int main(){
         fibonacciSeries(n);
         return 0;
     }
+    void fibonacciSeries(int n) {
+    int a = 0, b = 1, next;
+    
+    printf("Fibonacci Series: ");
+    
      for (int i = 0; i < n; i++) {
         printf("%d ", a);
         next = a + b;
