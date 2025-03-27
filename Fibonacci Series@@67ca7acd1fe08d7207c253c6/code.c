@@ -11,7 +11,7 @@ int main (){
     }
     void fibonacciSeries( int n){
         for (int i=0;i<=n;i++){
-            fibonacciSeries+=i;
+            fibonacciSeries += i;
         }
     }
     return 0;
