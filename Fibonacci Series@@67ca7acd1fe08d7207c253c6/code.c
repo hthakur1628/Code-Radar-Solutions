@@ -10,7 +10,7 @@ int main (){
         return 0;
     }
     void fibonacciSeries( int n){
-        fib = 0
+        int fib = 0 ;
         for (int i=0;i<=n;i++){
             fib += i;
         }
