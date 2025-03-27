@@ -10,12 +10,13 @@ int main(){
         fibonacciSeries(n);
         return 0;
     }
-    void fibonacciSeries( int n){
-        int fib = 0 ;
-        for (int i=0;i<=n;i++){
-            fib = i;
-            printf("%d",&fib);
-        }
+     for (int i = 0; i < n; i++) {
+        printf("%d ", a);
+        next = a + b;
+        a = b;
+        b = next;
     }
+    
+    printf("\n");
     
 }
