@@ -1,7 +1,8 @@
 // Your code here...
-void fibonacciSeries(int n);
 #include<stdio.h>
-int main (){
+
+void fibonacciSeries(int n);
+int main(){
     int n;
     scanf("%d",&n);
     if (n<=0){
