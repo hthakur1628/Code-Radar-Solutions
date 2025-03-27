@@ -17,5 +17,5 @@ int main(){
             printf("%d",&fib);
         }
     }
-    return 0;
+    
 }
