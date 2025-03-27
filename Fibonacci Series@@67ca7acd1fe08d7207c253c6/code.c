@@ -10,8 +10,8 @@ int main (){
         return 0;
     }
     void fibonacciSeries( int n){
-        for (i=0;i<=n;i++){
-            fibonacciSeries+=i
+        for (int i=0;i<=n;i++){
+            fibonacciSeries+=i;
         }
     }
     return 0;
