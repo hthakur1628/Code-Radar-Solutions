@@ -1,21 +1,26 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
 
 void fibonacciSeries(int n);
-int main(){
+
+int main() {
     int n;
-    scanf("%d",&n);
-    if (n<=0){
-        printf("Invald input\n");
-        fibonacciSeries(n);
+    scanf("%d", &n);
+    
+    if (n <= 0) {
+        printf("Invalid input\n");
         return 0;
     }
-    void fibonacciSeries(int n) {
+
+    fibonacciSeries(n);
+    return 0;
+}
+
+void fibonacciSeries(int n) {
     int a = 0, b = 1, next;
     
-    printf("Fibonacci Series: ");
+    printf("");
     
-     for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", a);
         next = a + b;
         a = b;
@@ -23,5 +28,4 @@ int main(){
     }
     
     printf("\n");
-    
 }
