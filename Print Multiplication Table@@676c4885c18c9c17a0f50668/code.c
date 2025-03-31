@@ -5,6 +5,7 @@ int main (){
     scanf("%d",&N);
     for (int i=1 ; i<=10 ; i++){
         printf("%d * %d == %d ",i , N , N*i);
+        printf("\n")
     }
     printf("\n");
     return 0 ;
