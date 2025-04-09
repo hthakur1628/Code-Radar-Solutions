@@ -3,18 +3,15 @@
 int main() {
     int num, shift;
 
-    // Input from user
-    printf("");
-    scanf("%d", &num);
+    scanf("%d", &num , &shift);
 
-    printf(" ");
-    scanf("%d", &shift);
-
-    // Perform left shift
+    
+    // Perform left shift and get result
     int result = num << shift;
 
-    // Print result
-    printf("%d\n", num, shift, result);
+    // Output original and result
+    
+    printf("%d\n", result);
 
     return 0;
 }
