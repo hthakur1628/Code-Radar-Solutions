@@ -3,7 +3,7 @@
 int main(){
     char var , n;
     scanf("%c %c",&var,&n);
-    printf("%c %c",var<<n);
+    printf("%c ",var<<n);
 
     return 0 ; 
 
