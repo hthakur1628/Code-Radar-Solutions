@@ -5,7 +5,7 @@ int main (){
     int n , target ; 
     scanf("%d",&n);
     for (int i=0 ; i<n ; i++){
-        scanf("%d",&arr[0]);
+        scanf("%d",&arr[n]);
     }
     scanf("%d",&target);
     int result = binarySearch(arr,n,target);
