@@ -5,9 +5,10 @@ int main() {
 
     // Input from user
     printf("");
-    scanf("%d", &num , &shift);
+    scanf("%d", &num );
 
-    
+    printf("");
+    scanf("%d", &shift);
 
     // Perform left shift and get result
     int result = num << shift;
