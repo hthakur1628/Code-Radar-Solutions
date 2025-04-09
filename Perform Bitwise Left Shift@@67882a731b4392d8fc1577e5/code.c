@@ -7,7 +7,7 @@ int main() {
     printf("");
     scanf("%d", &num , &shift);
 
-    ;
+    
 
     // Perform left shift and get result
     int result = num << shift;
