@@ -1,11 +1,20 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    char var , n;
-     var = n ;
-    scanf("%c %c",&var,&n);
-    printf("%c ",var<<n);
+#include <stdio.h>
 
-    return 0 ; 
+int main() {
+    int num, shift;
 
+    // Input from user
+    printf("");
+    scanf("%d", &num);
+
+    printf(" ");
+    scanf("%d", &shift);
+
+    // Perform left shift
+    int result = num << shift;
+
+    // Print result
+    printf("%d\n", num, shift, result);
+
+    return 0;
 }
