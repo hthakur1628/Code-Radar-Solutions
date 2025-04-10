@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int binarysearch(int arr[] , int n , int target){
+int binarySearch(int arr[] , int n , int target){
     int low = 0 , high = n - 1 ;
     while (low <= high ){
         int mid = (low + high )/2 ; 
@@ -20,11 +20,11 @@ int main (){
     int n , target ; 
     scanf("&d",&n);
     int arr[n];
-    for (int i = 0 ; i < n , i++){
+    for (int i = 0 ; i < n ; i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&target);
-    int result = binarysearch(arr , n , target);
+    int result = binarySearch(arr , n , target);
     printf("%d\n",result);
     return 0 ; 
 }
