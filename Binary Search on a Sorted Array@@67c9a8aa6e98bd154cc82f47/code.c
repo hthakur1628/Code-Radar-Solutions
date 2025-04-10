@@ -16,7 +16,7 @@ int binarySearch(int arr[], int n, int target) {
     return -1;
 }
 
-int main() {
+ int main (){
     int n, target;
     scanf("%d", &n); // Fixed format specifier
     int arr[n];
