@@ -16,9 +16,9 @@ int binarySearch(int arr[] , int n , int target){
     }
     return -1 ;
 }
-int main (){
+int main(){
     int n , target ; 
-    scanf("&d",&n);
+    scanf("%d",&n);
     int arr[n];
     for (int i = 0 ; i < n ; i++){
         scanf("%d",&arr[i]);
